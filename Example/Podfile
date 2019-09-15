@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SimpleCircleMenu_Example' do
+  pod 'SimpleCircleMenu', :path => '../'
+
+  target 'SimpleCircleMenu_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
